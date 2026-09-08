@@ -1,0 +1,11 @@
+# Exclude build artifacts
+
+*.sh text eol=lf
+*.ico binary
+
+node_modules/* linguist-vendored
+src/*.ts linguist-detectable
+examples/site/index.html linguist-vendored
+
+*.yml linguist-detectable=false
+*.htm linguist-vendored
